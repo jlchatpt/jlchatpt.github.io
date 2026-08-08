@@ -1,55 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Support — Nihongo Chat</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Bronze Sky — Support</title>
 <style>
-  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; max-width: 640px; margin: 40px auto; padding: 0 20px; line-height: 1.6; color: #222; }
-  h1 { font-size: 1.6em; }
-  h2 { font-size: 1.15em; margin-top: 1.6em; }
-  a { color: #C43E2E; }
+    :root { --bg:#100e0a; --panel:#1a1610; --gold:#e3c377; --pale:#f7ead0;
+             --dim:#9d8f74; --line:#2e2618; }
+    * { box-sizing:border-box; }
+    body { margin:0; background:var(--bg); color:var(--pale);
+           font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+           padding:0 20px; }
+    .wrap { max-width:680px; margin:0 auto; padding:64px 0 96px; }
+    h1 { font-size:30px; margin:0 0 6px; color:var(--gold); letter-spacing:-.4px; }
+    h2 { font-size:17px; margin:38px 0 10px; color:var(--gold); }
+    .sub { color:var(--dim); margin:0 0 40px; font-size:15px; }
+    p, li { color:#ded2ba; }
+    ul { padding-left:20px; }
+    li { margin:7px 0; }
+    a { color:var(--gold); }
+    .card { background:var(--panel); border:1px solid var(--line);
+            border-radius:12px; padding:22px 24px; margin:22px 0; }
+    footer { margin-top:56px; padding-top:22px; border-top:1px solid var(--line);
+             color:var(--dim); font-size:14px; }
+    footer a { margin-right:18px; }
+    code { background:#221c12; padding:2px 6px; border-radius:4px; font-size:14px; }
 </style>
 </head>
 <body>
+<div class="wrap">
 
-<h1>Support — Nihongo Chat</h1>
-<p>Have a question or ran into a problem? Email <a href="mailto:myjlchatpt@gmail.com">myjlchatpt@gmail.com</a> and we'll get back to you.</p>
+  <h1>Bronze Sky</h1>
+  <p class="sub">Support</p>
 
-<h2>Frequently asked questions</h2>
+  <div class="card">
+    <p style="margin:0">Questions, bugs, or trouble with a purchase — email
+    <a href="mailto:myjlchatpt+bronzesky@gmail.com">myjlchatpt+bronzesky@gmail.com</a>. I read everything and usually reply
+    within a couple of days.</p>
+  </div>
 
-<p><strong>What's included for free?</strong><br>
-Every JLPT level (N5 through N1) comes with a free preview — a handful of real vocabulary and grammar cards you can study, quiz yourself on, and get a feel for the app with. No account, no time limit, no ads.</p>
+  <h2>Restoring a purchase</h2>
+  <p>The endless-waves unlock is a one-time purchase tied to your Apple Account,
+  not to a device. If you reinstall the app or move to a new phone, open
+  Settings inside the game and tap <strong>Restore Purchases</strong>. Make sure
+  you are signed in with the same Apple Account used to buy it.</p>
 
-<p><strong>What does the full unlock include?</strong><br>
-A one-time purchase (not a subscription) that unlocks the complete vocabulary and grammar library across all five levels, plus the ability to bulk-import your own card lists from a CSV file. Pay once, it's yours for good.</p>
+  <h2>The purchase went through but nothing unlocked</h2>
+  <p>Try <strong>Restore Purchases</strong> first — this resolves it almost
+  every time. If it does not, email me with the date of the purchase and I will
+  sort it out. You will not be charged twice; the App Store blocks a repeat
+  purchase of a one-time unlock.</p>
 
-<p><strong>I purchased the unlock on another device — how do I get it back?</strong><br>
-Open Manage → Settings and tap Restore Purchases. As long as you're signed in with the same Apple ID you originally purchased with, this restores it immediately at no extra charge.</p>
+  <h2>Refunds</h2>
+  <p>All purchases are handled by Apple, so refunds go through Apple rather than
+  through me. Request one at
+  <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>.</p>
 
-<p><strong>Can I use the app in a language other than English?</strong><br>
-Yes — go to Manage → Settings → App Language and pick from English, Simplified Chinese, Traditional Chinese, Korean, or Vietnamese. This changes the app's own interface; it's independent of whatever language your phone's overall system is set to.</p>
+  <h2>My scores are not appearing on the leaderboard</h2>
+  <p>The global board needs Game Center. If you declined the Game Center prompt,
+  the game keeps a local board on your device instead and your scores are safe —
+  they simply are not shared. You can enable Game Center in the iOS Settings app
+  and scores will submit from then on.</p>
 
-<p><strong>Why is the dictionary still in English even though I changed the app's language?</strong><br>
-The app's menus, buttons, and screens are translated, but the actual Japanese vocabulary definitions come from a Japanese-English dictionary (JMdict) — there isn't a reliable, equally accurate Japanese-to-[your language] dictionary of the same scale to draw from, so word meanings currently stay in English regardless of your chosen app language. This is a deliberate choice to avoid showing lower-quality or machine-translated definitions.</p>
+  <h2>Reporting a bug</h2>
+  <p>The version number is shown on the title screen, like
+  <code>v1.0 (18)</code>. Including it, your device model and iOS version makes
+  a bug far easier to track down.</p>
 
-<p><strong>How does the daily reminder work?</strong><br>
-Turn it on in Manage → Settings, pick a time, and you'll get a gentle daily nudge to review. If it doesn't seem to be firing, check iOS Settings → Nihongo Chat → Notifications and make sure notifications are allowed — the in-app toggle can only ask for permission once, so if it was denied early on, you'll need to re-enable it there directly.</p>
+  <footer>
+    <a href="bronzesky-support.html">Support</a>
+    <a href="bronzesky-privacy.html">Privacy Policy</a>
+  </footer>
 
-<p><strong>How does spaced repetition (SRS) work here?</strong><br>
-After you study a card, you grade how well you knew it — Again, Hard, Good, or Easy. That grade decides how many days until the app shows you that card again: sooner if you struggled, later if it was easy. Reviewing right before you'd naturally forget something is what makes it stick.</p>
-
-<p><strong>Can I add my own words or grammar points?</strong><br>
-Yes — use Add a card on any level screen to add one by hand, or Manage → Import to bulk-add many at once from a CSV file (a one-time purchase feature).</p>
-
-<p><strong>Is my data backed up anywhere?</strong><br>
-Your progress lives entirely on your own device — there's no account or cloud sync. Use Manage → Export to save a backup file of your custom cards and progress, which you can keep somewhere safe or use to move your data to a new device.</p>
-
-<p><strong>Does this app work offline?</strong><br>
-Yes, completely. Studying, quizzing, and dictionary lookup all work with no internet connection — everything is bundled with the app.</p>
-
-<h2>Still stuck?</h2>
-<p>Email <a href="mailto:myjlchatpt@gmail.com">myjlchatpt@gmail.com</a> with what you were trying to do and what happened instead, and we'll help sort it out.</p>
-
+</div>
 </body>
 </html>
