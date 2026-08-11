@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Wallet Diary — Privacy Policy</title>
+<style>
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 32px 20px 80px;
+    line-height: 1.6;
+    color: #1c1c1e;
+  }
+  h1 { font-size: 26px; margin-bottom: 4px; }
+  h2 { font-size: 18px; margin-top: 36px; border-bottom: 1px solid #e5e5ea; padding-bottom: 6px; }
+  .updated { color: #6e6e73; font-size: 14px; margin-bottom: 32px; }
+  ul { padding-left: 20px; }
+  li { margin-bottom: 6px; }
+  code { background: #f2f2f7; padding: 1px 6px; border-radius: 4px; font-size: 14px; }
+  .note {
+    background: #f2f2f7;
+    border-radius: 10px;
+    padding: 14px 16px;
+    font-size: 14px;
+    margin: 16px 0;
+  }
+  table { border-collapse: collapse; width: 100%; margin: 12px 0; font-size: 14px; }
+  th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid #e5e5ea; vertical-align: top; }
+  th { color: #6e6e73; font-weight: 600; }
+</style>
+</head>
+<body>
+
+<h1>Wallet Diary — Privacy Policy</h1>
+<p class="updated">Last updated: August 11, 2026</p>
+
+<p>
+  Wallet Diary ("the App") is a personal expense-tracking app for iOS.
+  This page explains what data the App collects, how it's stored, and
+  confirms that none of it is ever sent to a third party.
+</p>
+
+<h2>The short version</h2>
+<div class="note">
+  Everything you log — every expense, receipt photo, and setting —
+  stays on your device. The App does not send your data to any
+  third-party AI service, or to us, or to anyone else. There is no
+  server-side account, no analytics, and no tracking.
+</div>
+
+<h2>What the App stores, and where</h2>
+<p>
+  Every expense you log — date, item, provider/merchant, cost,
+  currency, category, notes, payment method, and any receipt photo you
+  attach — is stored locally on your device using Apple's SwiftData
+  framework. This data is kept in an
+  <a href="https://developer.apple.com/documentation/xcode/configuring-app-groups">App Group</a>
+  container so the Home Screen widget can read it, but it never leaves
+  your device through that mechanism — the widget just reads the same
+  on-device file the app writes to.
+</p>
+<p>
+  The App does not use iCloud sync, does not have a server-side account
+  system, and does not transmit your expense data to the developer of
+  this App under any circumstance. We (the developer) never see, store,
+  or have access to your expense data.
+</p>
+
+<h2>On-device voice and receipt processing</h2>
+<p>
+  Speaking an expense uses Apple's on-device Speech framework to
+  convert your voice to text — this conversion happens entirely on your
+  device; audio is never recorded to a file, stored, or sent anywhere,
+  including to us or to Apple's servers.
+</p>
+<p>
+  Scanning a receipt photo uses Apple's on-device Vision framework to
+  read text off the photo. This also happens entirely on-device — no
+  receipt photo or any data extracted from it is ever sent anywhere.
+</p>
+<p>
+  The App does not send user data to any third-party AI service. All
+  parsing (of typed/spoken expense text and of receipt photos) happens
+  entirely on your device.
+</p>
+
+<h2>Currency exchange rates</h2>
+<p>
+  To convert between currencies, the App fetches current exchange rates
+  from <a href="https://www.exchangerate-api.com/">open.er-api.com</a>,
+  a free public API. This request does not include any of your personal
+  or financial data — it's a generic request for that day's exchange
+  rates, the same for every user of the App.
+</p>
+
+<h2>What we don't do</h2>
+<ul>
+  <li>No advertising, and no ad networks or ad-tracking SDKs of any kind.</li>
+  <li>No analytics or usage-tracking SDKs.</li>
+  <li>We never sell or share your data with data brokers or advertisers.</li>
+  <li>No account creation, no login, no data tied to your identity on our end.</li>
+</ul>
+
+<h2>Your data, your control</h2>
+<p>
+  Because everything is stored locally on your device, you're always in
+  control of it:
+</p>
+<ul>
+  <li><strong>Export:</strong> Settings → Export All Expenses (CSV) lets you export everything you've logged at any time.</li>
+  <li><strong>Delete:</strong> deleting the App from your device permanently removes all locally stored data, including the widget's shared copy.</li>
+</ul>
+
+<h2>Children's privacy</h2>
+<p>
+  The App is not directed at children under 13, and we do not knowingly
+  collect personal data from children under 13.
+</p>
+
+<h2>Changes to this policy</h2>
+<p>
+  If this policy changes, the "Last updated" date at the top of this
+  page will change accordingly. Continued use of the App after a change
+  constitutes acceptance of the updated policy.
+</p>
+
+<h2>Contact</h2>
+<p>
+  Questions about this policy or your data can be sent to
+  <a href="mailto:myjlchatpt@gmail.com">myjlchatpt@gmail.com</a>.
+</p>
+
+</body>
+</html>
